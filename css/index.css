@@ -8,7 +8,7 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background: var(--Dark-cyan);
-    background-image: url(assets/img/bg-pattern-top.svg), url(assets/img/bg-pattern-bottom.svg);
+    background-image: url(/Assets/img/bg-pattern-top.svg), url(/Assets/img/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right 51vw bottom 10vh, left 50vw top 45vh;
 
@@ -66,12 +66,12 @@ span {
 }
 
 .card__header {
+    background-image: url(/Assets/img/bg-pattern-card.svg);
     width: 100%;
     height: 140px;
     position: relative;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    background-image: url(assets/img/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
