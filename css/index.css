@@ -31,15 +31,15 @@ body {
 
 }
 .card__body h1{
-    bottom: 52px;
+    bottom: 45px;
     position: relative;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
 }
 
 .card__body p{
     position: relative;
-    bottom: 65px;
+    bottom: 58px;
     color: var(--Dark-grayish-blue);
     font-size: 13px;
     font-weight: 400;
@@ -99,7 +99,7 @@ span {
 .footer__stats h2{
     margin: 0px;
     margin-top: 30px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 17px;
 }
 .footer__stats p{
